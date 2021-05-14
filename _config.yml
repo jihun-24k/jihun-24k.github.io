@@ -102,13 +102,13 @@ analytics:
 author:
   name             : "김지훈"
   avatar           : #"/assets/images/profile/programmer.png" # 프로필 이미지
-  bio              : "<b>꾸<\b>준히 <br> <b>안<\b>하는 날 없이 <br> < b>꾸<\b>미자"
+  bio              : "꾸준히 <br> 안하는 날 없이 <br> 꾸미자"
   location         : "Republic of Korea"
   email            : "gi020477@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      #url: mailto:7271kim@naver.com
+      #url: mailto:gi020477@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://jihun-24k.github.io"
@@ -130,7 +130,7 @@ footer:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:7271kim@naver.com
+      url: mailto:gi020477@gmail.com
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
