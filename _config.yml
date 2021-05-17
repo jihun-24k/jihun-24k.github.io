@@ -1,6 +1,6 @@
 # 기본 설명 https://mmistakes.github.io/minimal-mistakes/docs/configuration/
 
-minimal_mistakes_skin    : "default" # 태마 색 설정 "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise" 
+minimal_mistakes_skin    : "mint" # 태마 색 설정 "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise" 
 
 # Site Settings
 locale                   : "ko-KR"
@@ -102,7 +102,7 @@ analytics:
 author:
   name             : "김지훈"
   avatar           : #"/assets/images/profile/programmer.png" # 프로필 이미지
-  bio              : "꾸준히 <br> 안도말고 <br> 가꾸자"
+  bio              : "꾸준히 <br> 안주말고 <br> 가꾸자"
   location         : "Republic of Korea"
   email            : "gi020477@gmail.com"
   links:
