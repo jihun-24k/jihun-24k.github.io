@@ -8,7 +8,7 @@ title                    : "ㄱㅐㅂㅏㄹㅈㅏ"# Meta 태그에 들어가는 
 title_separator          : "&#124;" # 타이틀 사이 구분자 <title>Welcome to Jekyll | Minimal Mistakes</title> 해당 형식으로 들어갑니다.
 subtitle                 : "Version 1.0" # 타이틀 아래에 나올 작은 글씨 
 name                     : "김지훈" # 맨 하단 이름 찍히는 영역
-description              : "/assets/images/sky_blue.jpg" # Meta 태그에 들어가는 영역 
+description              : # Meta 태그에 들어가는 영역 
 url                      : "https://jihun-24k.github.io" # GitBlog 호스트 주소
 baseurl                  : # subPath https://7271kim.github.io/blog라고 하고 싶을 시 "/blog" 라고 적는다.
 repository               : "jihun-24k/jihun-24k.github.io" # GitHub username/repo-name  
@@ -101,7 +101,7 @@ analytics:
 # Site Author
 author:
   name             : "김지훈"
-  avatar           : #"/assets/images/profile/programmer.png" # 프로필 이미지
+  avatar           : "/assets/images/sky_blue.jpg" # 프로필 이미지
   bio              : "꾸준히 <br> 안주말고 <br> 가꾸자"
   location         : "Republic of Korea"
   email            : "gi020477@gmail.com"
