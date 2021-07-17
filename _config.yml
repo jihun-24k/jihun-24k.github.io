@@ -103,7 +103,7 @@ author:
   name             : "김지훈"
   avatar           : "/assets/images/피콕블루.png" # 프로필 이미지
   bio              : "잡히는대로 공부 중"
-  location         : "Republic of Korea"
+  location         : "Busan"
   email            : "gi020477@gmail.com"
   links:
     - label: "Email"
@@ -117,7 +117,7 @@ author:
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/"
+      #url: "https://www.facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jihun-24k"
@@ -136,7 +136,7 @@ footer:
       # url:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/"
+      #url: "https://www.facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jihun-24k"
