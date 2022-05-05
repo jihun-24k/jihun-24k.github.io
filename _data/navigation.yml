@@ -1,9 +1,9 @@
 # main links
 main:
-  - title: "Categories"
-    url: /categories/
   - title: "About"
     url: /about/
+  - title: "Categories"
+    url: /categories/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
