@@ -1,10 +1,10 @@
 ---
-title: "Java에 관련된 포스팅"
+title: "Operating System에 관련된 포스팅"
 layout: archive
-permalink: categories/java
+permalink: categories/os
 author_profile: true
 sidebar_main: true
 ---
 
-{% assign posts = site.categories.Java %}
+{% assign posts = site.categories.OS%}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
