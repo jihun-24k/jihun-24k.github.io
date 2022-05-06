@@ -1,11 +1,11 @@
 ---
-title: "JAVA에 관련된 포스팅"
+title: "Spring에 관련된 포스팅"
 layout: archive
-permalink: categories/java
+permalink: categories/spring
 author_profile: true
 sidebar_main: true
 ---
 
 
-{% assign posts = site.categories.Java %}
+{% assign posts = site.categories.Spring %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
