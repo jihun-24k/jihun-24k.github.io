@@ -42,14 +42,14 @@ export default function useTableOfContents(rawContent: string) {
       entries =>
         setActiveId(prevId => {
           // 스크롤을 아래로 내리는 경우
-          if (entries[0].boundingClientRect.top < window.innerHeight * 0.3) return entries[0].target.id
+          if (entries[0].boundingClientRect.top < 0) return entries[0].target.id
           // 스크롤을 위로 올리는 경우
           else {
             const index = toc.findIndex(({ id }) => id === prevId)
             return index > 0 ? toc[index - 1].id : null
           }
         }),
-      { rootMargin: '0% 0px -70% 0px' },
+      { rootMargin: '0% 0px -100% 0px' },
     )
 
     document
