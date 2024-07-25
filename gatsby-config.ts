@@ -2,7 +2,7 @@ import type { GatsbyConfig } from "gatsby";
 import dotenv from "dotenv";
 
 dotenv.config()
-const SITE_URL = 'https://google.com'
+const SITE_URL = 'https://jihun-24k.github.io'
 
 const config: GatsbyConfig = {
   siteMetadata: {
