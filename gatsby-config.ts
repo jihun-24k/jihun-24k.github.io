@@ -17,6 +17,13 @@ const config: GatsbyConfig = {
   jsxRuntime: 'automatic',
   plugins: [
     {
+      resolve: 'gatsby-plugin-gtag',
+      options: {
+        trackingId: process.env.GOOGLE_ANALYTICS_ID,
+        head: true, // 애널리틱스 스크립트를 Head 태그 내에 둘지에 대한 속성입니다.
+      },
+    },
+    {
       resolve: 'gatsby-plugin-manifest',
       options: {
         "icon": "src/images/favicon.png"
