@@ -3,6 +3,8 @@ name: Deploy Blog
 on:
   push:
     branches: develop
+  repository_dispatch:
+    types: [publish-event]
 
 jobs:
   build:
@@ -14,7 +16,6 @@ jobs:
         with:
           node-version: 20
 
-      # 원하는 Github Secrets을 불러와 env 파일을 생성해줍니다.
       - name: Generate env file
         run: |
           echo "CONTENTFUL_ACCESS_TOKEN=$CONTENTFUL_ACCESS_TOKEN" >> .env
