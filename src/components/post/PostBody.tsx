@@ -34,7 +34,8 @@ const Content = styled.div`
   gap: 100px;
   font-size: 16px;
   line-height: 2;
-  word-break: break-word;
+  word-break: break-all;
+  color: #313131;
 
   @media (max-width: 1024px) {
     width: 100%;

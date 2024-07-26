@@ -22,7 +22,7 @@
     "@graphql-codegen/cli": "^5.0.2",
     "babel-plugin-styled-components": "^2.1.4",
     "dotenv": "^16.4.5",
-    "gatsby": "^5.13.6",
+    "gatsby": "^5.13.3",
     "gatsby-plugin-canonical-urls": "^5.13.1",
     "gatsby-plugin-gtag": "^1.0.13",
     "gatsby-plugin-image": "^3.13.1",

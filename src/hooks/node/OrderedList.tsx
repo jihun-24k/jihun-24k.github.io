@@ -6,7 +6,7 @@ type ListProps = {
 } & HTMLAttributes<HTMLOListElement>
 
 const List = styled.ol`
-  margin: 4px 0px 4px 20px;
+  margin: 4px 0px 8px 20px;
 `
 
 export default function OrderedList({ children, ...props }: ListProps) {

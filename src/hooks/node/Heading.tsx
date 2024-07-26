@@ -22,9 +22,12 @@ const Components = {
   [BLOCKS.HEADING_2]: styled.h2`
     font-size: 25px;
     font-weight: 700;
+    padding-bottom: 0.2em;
+    border-bottom: 1px solid #CCEEFF;
 
     * + & {
       margin-top: 60px;
+      margin-bottom: 20px;
     }
 
     hr + & {

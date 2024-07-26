@@ -6,7 +6,7 @@ type LinkProps = {
 } & AnchorHTMLAttributes<HTMLAnchorElement>
 
 const Component = styled.a`
-  color: #4263eb;
+  color: #3399FF;
   text-decoration: underline;
 `
 
