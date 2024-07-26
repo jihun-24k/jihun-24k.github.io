@@ -8,7 +8,9 @@ type ListProps = {
 const List = styled.ol`
   margin: 4px 0px 8px 20px;
 
-  p {
+  ul p,
+  ol p,
+  li p {
     margin-bottom: 0;
   }
 `
