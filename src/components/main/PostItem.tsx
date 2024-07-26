@@ -53,6 +53,7 @@ const Wrapper = styled(Link)`
   padding: 32px 0px;
   overflow: hidden;
   width: 768px;
+  height: 218px;
   border-bottom: 1.5px solid #e0e0e0;
   text-decoration: none;
   color: inherit;
@@ -63,10 +64,12 @@ const Wrapper = styled(Link)`
 
   @media (max-width: 1024px) {
     width: 100%;
+    height: auto;
   }
 
   @media (max-width: 768px) {
     width: 100%;
+    height: auto;
   }
 
   &:hover ${Title} {

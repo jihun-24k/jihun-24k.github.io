@@ -30,8 +30,8 @@ const Wrapper = styled.div`
 
 const Item = styled.div<{ $selected: boolean }>`
   font-size: 16px;
-  font-weight: ${({ $selected }) => ($selected ? 600 : 400)};
-  color: ${({ $selected }) => ($selected ? '#87CEEB' : 'black')};
+  font-weight: ${({ $selected }) => ($selected ? 700 : 300)};
+  color: ${({ $selected }) => ($selected ? '#005270' : 'black')};
   cursor: ${({ $selected }) => ($selected ? 'default' : 'pointer')};
 
   @media (max-width: 1024px) {
