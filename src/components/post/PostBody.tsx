@@ -37,6 +37,10 @@ const Content = styled.div`
   word-break: break-all;
   color: #313131;
 
+  p {
+    margin-bottom: 1.5em;
+  }
+
   @media (max-width: 1024px) {
     width: 100%;
   }
