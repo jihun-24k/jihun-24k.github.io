@@ -26,8 +26,16 @@ const ProfileImage = styled.div`
 `
 
 const Info = styled.div`
+  display: flex;
+  flex-direction: column;
+  line-height: 2;
+
   a {
     text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 `
 
@@ -59,6 +67,10 @@ const Content = styled.div`
 
   p {
     margin-bottom: 1.5em;
+  }
+
+  h3 {
+    margin: 0;
   }
 
   @media (max-width: 1024px) {
