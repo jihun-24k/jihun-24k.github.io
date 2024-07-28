@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useLocation } from '@reach/router';
-import { Link, navigate } from 'gatsby'
+import { Link } from 'gatsby'
 import styled from 'styled-components'
 
 const Wrapper = styled.div`
@@ -62,32 +62,19 @@ const Header = () => {
     setActiveLink(location.pathname);
   }, [location.pathname]);
 
-  const handleClick = (link: string) => {
-    setActiveLink(link);
-    navigate(link);
-  };
-
   return (
     <Wrapper>
       <Title to="/">
         <Highlight>"</Highlight>JiHun<Highlight>"</Highlight> Blog
       </Title>
       <Menu>
-        <Article
-          to="/"
-          className={activeLink === '/' ? 'active' : ''}
-          onClick={() => handleClick('/')}
-        >
+        <Article to="/" className={activeLink === '/' ? 'active' : ''}>
           Articles
         </Article>
-        <About
-          to="/about"
-          className={activeLink === '/about' ? 'active' : ''}
-          onClick={() => handleClick('/about')}
-        >
+        <About to="/about" className={activeLink === '/about/' ? 'active' : ''}>
           About
         </About>
-    </Menu>
+      </Menu>
     </Wrapper>
   )
 }
