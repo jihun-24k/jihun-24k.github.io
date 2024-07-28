@@ -25,6 +25,12 @@ const ProfileImage = styled.div`
   }
 `
 
+const Info = styled.div`
+  a {
+    text-decoration: none;
+  }
+`
+
 const Title = styled.div`
     font-size: 30px;
     font-weight: 700;
@@ -46,6 +52,10 @@ const Content = styled.div`
   line-height: 2;
   word-break: break-all;
   color: #313131;
+
+  a {
+    text-decoration: none;
+  }
 
   p {
     margin-bottom: 1.5em;
@@ -94,7 +104,7 @@ const AboutPage: React.FC = () => {
                 </ProfileImage>
                 <Title>진심이 담긴 개발자, 김지훈입니다</Title>
               </div>
-              <div>{info}</div>
+              <Info>{info}</Info>
         </Wrapper>
         <Content>{richTextContent}</Content>
     </>
