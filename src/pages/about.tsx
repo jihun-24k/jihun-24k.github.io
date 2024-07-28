@@ -1,8 +1,9 @@
 import React from 'react';
-import { graphql, useStaticQuery } from 'gatsby';
+import { HeadFC, graphql, useStaticQuery } from 'gatsby';
 import { StaticImage } from 'gatsby-plugin-image'
 import useRenderRichText from '../hooks/useRenderRichText';
 import styled from 'styled-components';
+import SEO from '../components/common/Seo'
 
 const Wrapper = styled.div`
     display: flex;
@@ -60,6 +61,11 @@ const Content = styled.div`
     line-height: 1.8;
   }
 `
+
+export const Head: HeadFC = () => <SEO
+  title='김지훈 | 백엔드 개발자'
+  description='이력서 입니다.'
+/>
 
 const AboutPage: React.FC = () => {
   const data = useStaticQuery(graphql`
