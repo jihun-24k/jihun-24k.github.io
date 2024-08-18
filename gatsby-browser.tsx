@@ -1,6 +1,6 @@
 import { GatsbyBrowser } from 'gatsby'
 import Layout from './src/components/common/Layout'
-import './css/prism-coy-without-shadows.min.css'
+import './css/prism-coy-without-shadows.css'
 
 export const wrapPageElement: GatsbyBrowser['wrapPageElement'] = ({
   element,
